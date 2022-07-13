@@ -63,9 +63,6 @@ def get_auth_key():
 
 
 def getQoQStats_EventsCount_by_agent(date, group_by):
-    # url = "https://kubeingress." + pod + ".eng.sjc01.qualys.com/ioc-ws/events/count?filter=(dateTime%3A%5B%22" +
-    # date + "T00%3A00%3A00.000Z%22..%22" + date + "T23%3A59%3A59.999Z%22%5D)&groupBy=" + group_by +
-    # "&state=false&pagesize=5000&limit=25"
     url = "https://kubeingress." + pod + ".eng.sjc01.qualys.com/ioc-ws/events/count"
     params = {"filter": f'(dateTime:["{date}T00:00:00.000Z".."{date}T23:59:59.999Z"])', "groupBy": group_by,
               "state": "false", "pagesize": 5000, "limit": 25}
