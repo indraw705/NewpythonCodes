@@ -1,0 +1,12 @@
+127.180.71.3 - - [10/May/1997:08:05:32 +0000] "GET /downloads/product_1 HTTP/1.1" 304 0 "-" "Debian APT-HTTP/1.3 (0.8.16~exp12ubuntu10.21)"
+
+{
+  "remote_addr":"93.180.71.3",
+  "time":"1586514731",
+  "method":"GET",
+  "path":"/downloads/product_1",
+  "version":"HTTP/1.1",
+  "response":"304",
+  "bytesSent": 0,
+  "user_agent": "Debian APT-HTTP/1.3 (0.8.16~exp12ubuntu10.21)"
+}
